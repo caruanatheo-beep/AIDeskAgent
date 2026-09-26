@@ -1,15 +1,15 @@
 ---
 title: AI Sales Desk Assistant
-emoji: 📈
+emoji: ðŸ“ˆ
 colorFrom: gray
-colorTo: orange
+colorTo: yellow
 sdk: gradio
 sdk_version: 6.28.0
 python_version: 3.12
 app_file: app.py
 pinned: false
 license: mit
-short_description: Source-backed macro and cross-asset intelligence for Markets Sales.
+short_description: AI market intelligence for Sales professionals.
 tags:
   - finance
   - macroeconomics
@@ -24,7 +24,7 @@ AI Sales Desk Assistant is a Python and Gradio application designed for financia
 
 The application is built to produce concise and auditable market intelligence. It separates observed data from interpretation, attaches sources to research outputs and preserves a deterministic fallback when model inference is unavailable.
 
-Developed by **Théo Caruana**, MSc Financial Markets & Investments candidate at SKEMA Business School, with previous experience in Fixed Income and Derivatives Brokerage, Liquidity Sales and Global Markets Risk.
+Developed by **ThÃ©o Caruana**, MSc Financial Markets & Investments candidate at SKEMA Business School, with previous experience in Fixed Income and Derivatives Brokerage, Liquidity Sales and Global Markets Risk.
 
 > This project uses public information only. It does not contain confidential employer data or proprietary research. It is intended for decision support and educational demonstration, not investment advice. Client-facing content requires human review.
 
@@ -84,30 +84,30 @@ Availability and publication frequency vary by provider. Missing observations re
 
 ```text
 .
-├── app.py
-├── requirements.txt
-├── run_local.ps1
-├── diagnose_fred.py
-├── rag_documents/
-│   ├── *.pdf
-│   └── rag_index.json
-├── src/
-│   ├── agent.py
-│   ├── analytics.py
-│   ├── calendar.py
-│   ├── config.py
-│   ├── data.py
-│   ├── evidence.py
-│   ├── llm.py
-│   ├── memory.py
-│   ├── models.py
-│   ├── news.py
-│   ├── reports.py
-│   ├── security.py
-│   ├── tools.py
-│   ├── ui.py
-│   └── web_search.py
-└── tests/
+â”œâ”€â”€ app.py
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ run_local.ps1
+â”œâ”€â”€ diagnose_fred.py
+â”œâ”€â”€ rag_documents/
+â”‚   â”œâ”€â”€ *.pdf
+â”‚   â””â”€â”€ rag_index.json
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ agent.py
+â”‚   â”œâ”€â”€ analytics.py
+â”‚   â”œâ”€â”€ calendar.py
+â”‚   â”œâ”€â”€ config.py
+â”‚   â”œâ”€â”€ data.py
+â”‚   â”œâ”€â”€ evidence.py
+â”‚   â”œâ”€â”€ llm.py
+â”‚   â”œâ”€â”€ memory.py
+â”‚   â”œâ”€â”€ models.py
+â”‚   â”œâ”€â”€ news.py
+â”‚   â”œâ”€â”€ reports.py
+â”‚   â”œâ”€â”€ security.py
+â”‚   â”œâ”€â”€ tools.py
+â”‚   â”œâ”€â”€ ui.py
+â”‚   â””â”€â”€ web_search.py
+â””â”€â”€ tests/
 ```
 
 ## Local installation
@@ -272,5 +272,5 @@ Released under the [MIT License](LICENSE).
 
 ## Author
 
-**Théo Caruana**  
+**ThÃ©o Caruana**  
 MSc Financial Markets & Investments, SKEMA Business School
